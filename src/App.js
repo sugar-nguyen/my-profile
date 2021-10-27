@@ -2,8 +2,6 @@ import ProfileLeft from './profile/ProfileLeft';
 import ProfileRight from './profile/ProfileRight';
 import styles from './App.module.css';
 
-console.log(styles);
-
 const App = () => {
 
   return (
