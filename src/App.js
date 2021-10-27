@@ -1,14 +1,17 @@
-import './App.css';
 import ProfileLeft from './profile/ProfileLeft';
 import ProfileRight from './profile/ProfileRight';
+import styles from './App.module.css';
 
-function App() {
+console.log(styles);
+
+const App = () => {
+
   return (
-    <div className="profile-outline">
-      <div className="profile">
-        <div className="profile-content">
-          <ProfileLeft />
-          <ProfileRight />
+    <div className={styles['profile-outline']}>
+      <div className={styles.profile}>
+        <div className={styles['profile-content']}>
+          <ProfileLeft m={styles}/>
+          <ProfileRight m={styles}/>
         </div>
 
       </div>

@@ -27,20 +27,16 @@
   min-height: 500px;
 }
 
+
+
+/*left*/
+
 .profile-left {
   float: left;
   width: 30%;
   box-sizing: border-box;
   padding: 20px 10px;
 }
-
-.profile-right {
-  float: left;
-  width: 70%;
-  box-sizing: border-box;
-  border-left: 1px solid rgb(195 196 197);
-}
-
 .profile-left>.avt {
   width: 220px;
   height: 220px;
@@ -110,9 +106,15 @@
 .profile-left>.profile-info>ul.vertical-info-list>li>span {
   margin-left: 5px;
 }
+  
 
 /***********right**********/
-
+.profile-right {
+  float: left;
+  width: 70%;
+  box-sizing: border-box;
+  border-left: 1px solid rgb(195 196 197);
+}
 .profile-job {
   box-sizing: border-box;
   width: 100%;
