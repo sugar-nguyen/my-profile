@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'QuickSandRegular';
+    font-display: auto;
+    src: url('../fonts/Barlow-Regular.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'QuickSandBold';
+    font-display: auto;
+    src: url('../fonts/Barlow-Bold.ttf') format('truetype');
+  }
+  
+  
+  body {
+    font-family:'QuickSandRegular';
+    padding: 0;
+    margin: 0;
+  }
+  p{
+    margin: 0;
+  }
