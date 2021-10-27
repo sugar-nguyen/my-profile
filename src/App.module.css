@@ -130,8 +130,8 @@
 }
 
 .profile-left>.skill>.skill-item>.dots>.dot {
-  height: 15px;
-  width: 15px;
+  height: 13px;
+  width: 13px;
   border-radius: 50%;
   background-color: #cbc9c9;
 }
